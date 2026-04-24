@@ -10,7 +10,7 @@ public class Password implements Comparable<String>{
 
     public int compareTo(String s){
 
-        if (value.length() > s.length()) return 1;
+        if (value.length() > s.length()) return 1; //inline weil warum nicht
         else if(value.length() < s.length()) return -1;
         else {
             int countA = 0;

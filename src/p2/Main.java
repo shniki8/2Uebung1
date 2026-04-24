@@ -4,8 +4,8 @@ public class Main
 {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        TimeUnit tu = new Hours(727);
-        TimeUnit tu2 = new Seconds(69);
+        TimeUnit tu = new Hours(727); //when you see it
+        TimeUnit tu2 = new Seconds(69); //nice
         TimeUnit tu3 = new Minutes(67);
         System.out.println(tu.getSeconds() + " geq 4000: " + atLeast4000Seconds(tu)); //greaterequals
         System.out.println(tu2.getSeconds() + " geq 4000: " + atLeast4000Seconds(tu2));
@@ -35,7 +35,7 @@ public class Main
         case 'h':
             return (unit.getSeconds() >= amount*60*60);
     }
-
-        return true;
+        System.out.println("Char not recognized, returned false, idiot. C: ");
+        return false;
     }
 }
