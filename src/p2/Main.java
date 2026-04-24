@@ -3,6 +3,7 @@ package p2;
 public class Main
 {
     public static void main(String[] args) {
+        System.out.println("Hello World!");
         TimeUnit tu = new Hours(727);
         TimeUnit tu2 = new Seconds(69);
         TimeUnit tu3 = new Minutes(67);
