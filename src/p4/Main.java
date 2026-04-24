@@ -8,6 +8,7 @@ public class Main {
         System.out.println(d.getDiscountPrice());
         d = new Electronic(100);
         System.out.println(d.getDiscountPrice());
+        //:D
 
     }
 }
