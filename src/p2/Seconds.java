@@ -9,4 +9,5 @@ public class Seconds implements TimeUnit{
     public int getSeconds(){
         return number;
     }
+
 }
